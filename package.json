@@ -1,0 +1,26 @@
+{
+  "name": "error-replacer",
+  "version": "1.0.0",
+  "description": "A 'replacer' function for JSON.stringify that turns errors into something meaningful",
+  "repository": "juristat-oss/error-replacer",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [
+    "error",
+    "replacer",
+    "JSON",
+    "stringify"
+  ],
+  "author": "Ben Chociej <ben.chociej@juristat.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "utils-error-to-json": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
